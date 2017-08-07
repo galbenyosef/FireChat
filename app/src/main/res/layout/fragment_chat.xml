@@ -1,0 +1,84 @@
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.gal.firechat.MainActivity"
+        android:layout_width="match_parent"
+        android:background="@color/regular_item"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_layout"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <EditText
+                android:id="@+id/input"
+                android:background="#FFFFCC"
+                android:textColor="#000"
+                android:imeOptions="actionSend"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:hint="@string/type_your_message_here" />
+
+
+            <ImageView
+                android:id="@+id/send"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/animation"
+                android:text="@string/send"
+                android:contentDescription="@string/send" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/talking_to"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="center" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/upper_layout"
+            android:layout_above="@id/bottom_layout"
+            android:layout_below="@id/talking_to">
+
+            <ListView
+                android:id="@+id/messagesList"
+                android:layout_width="0dp"
+                android:transcriptMode="alwaysScroll"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+            </ListView>
+
+            <ImageView
+                android:contentDescription="@string/divider"
+                android:src="@android:drawable/divider_horizontal_dim_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/black"/>
+
+            <ListView
+                android:id="@+id/userList"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </ListView>
+        </LinearLayout>
+    </RelativeLayout>

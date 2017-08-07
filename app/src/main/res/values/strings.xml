@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FireChat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_to_firechat" translatable="false">Welcome to FireChat</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="password_again">Password Again</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign in</string>
+    <string name="logoutquestion">Do you want to Logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="nowtalkingto">Now talking to...</string>
+    <string name="admin">Admin</string>
+    <string name="system">System</string>
+    <string name="welcome">Welcome</string>
+    <string name="enternick">Please enter your nickname</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="emailcantempty">Email can\'t be empty</string>
+    <string name="passcantempty">Password can\'t be empty</string>
+    <string name="loggedinas">Logged in as:</string>
+    <string name="loginfaile">Login failed.</string>
+    <string name="passdontmatch">Passwords don\'t match</string>
+    <string name="createduser">Created user</string>
+    <string name="usercreatefailed">User creation failed.</string>
+    <string name="hello">Hello guest, please log in/register.</string>
+    <string name="welcomeback">Welcome back,</string>
+    <string name="logout">Logout</string>
+    <string name="unread" translatable="false">unread</string>
+    <string name="send" translatable="false">Send</string>
+    <string name="divider" translatable="false">divider</string>
+    <string name="type_your_message_here">Type your message here...</string>
+    <string name="logo" translatable="false">logo</string>
+    <string name="logintext" translatable="false">logintext</string>
+    <string name="nickname">Nickname</string>
+
+</resources>

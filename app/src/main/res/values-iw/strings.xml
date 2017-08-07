@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FireChat</string>
+    <string name="admin">מנהל מערכת</string>
+    <string name="cancel">ביטול</string>
+    <string name="createduser">המשתמש נוצר</string>
+    <string name="email">אימייל</string>
+    <string name="emailcantempty">אימייל לא יכול להיות ריק</string>
+    <string name="enternick">הזן כינוי</string>
+    <string name="hello">שלום אורח, אנא הירשם/כנס למערכת</string>
+    <string name="loggedinas">"מחובר כ: "</string>
+    <string name="login">כניסה</string>
+    <string name="loginfaile">האימות נכשל</string>
+    <string name="logoutquestion">האם ברצונך לצאת?</string>
+    <string name="no">לא</string>
+    <string name="nowtalkingto">"כעת מדבר עם: "</string>
+    <string name="ok">בסדר</string>
+    <string name="passcantempty">סיסמא לא יכולה להיות ריקה</string>
+    <string name="passdontmatch">סיסמאות לא תואמות</string>
+    <string name="password">סיסמה</string>
+    <string name="password_again">סיסמה בשנית</string>
+    <string name="register">הירשם</string>
+    <string name="sign_in">התחבר</string>
+    <string name="system">מערכת</string>
+    <string name="usercreatefailed">יצירת משתמש חדש נכשלה</string>
+    <string name="welcome">ברוך הבא</string>
+    <string name="welcomeback">"ברוך השב, "</string>
+    <string name="yes">כן</string>
+    <string name="logout">התנתק</string>
+    <string name="type_your_message_here">לחץ כאן על מנת להקליד</string>
+    <string name="nickname">שנה כינוי</string>
+
+
+</resources>
